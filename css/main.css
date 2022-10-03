@@ -1,0 +1,27 @@
+@import url('../css/reset.css');
+html,
+body {
+	height: 100%;
+
+}
+body {
+	line-height: 1;
+}
+/* ================================ */
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+/* ================================ */
+
+.page {
+	flex: 1 1 auto;
+}
+/* ================================ */
+[class*="__container"]{
+	max-width: 1260px;
+	margin: 0 auto;
+    padding: 0px 15px;
+}
